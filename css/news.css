@@ -1,0 +1,73 @@
+@charset "utf-8";
+/* CSS Document */
+.y{
+	height:1080px;
+	background-color:#E3E3E3;
+}
+.yy h3{
+	margin-left:20px;
+	font-size:18px;
+	font-family:"微软雅黑";
+	padding:25px 0 25px 0;
+}
+.yy h3 a{
+	color:#F77111;
+}
+.yy h3 img{
+	display:inline-block;
+	vertical-align:middle;
+	margin-right:5px;
+	margin-top:-2px;
+}
+.yy ul{
+	margin-left:20px;
+}
+.yy ul li{
+	height:230px;
+	margin-bottom:12px;
+	font-family:"微软雅黑";
+}
+.yy ul li img{
+	float:left;
+	margin-right:15px;
+}
+.yy ul li h4{
+	font-size:14px;
+	font-weight:normal;
+	padding-top:5px;
+	margin-bottom:10px;
+}
+.yy ul li h4 a{
+	color:#F77111;
+}
+.yy ul li p{
+	font-size:12px;
+	line-height:28px;
+}
+.yy ul li p a{
+	color:#666666;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

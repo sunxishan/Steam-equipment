@@ -1,0 +1,159 @@
+@charset "utf-8";
+/* CSS Document */
+/*产品展示*/
+.chanpin {
+	height: 635px;
+	margin-top: 33px;
+}
+.zhanshi .fangkuai {
+	padding-left: 15px;
+	display: inline-block;
+	padding-right: 5px;
+}
+.zhanshi h3 {
+	font-size: 18px;
+	color: #F77111;
+	display: inline-block;
+}
+.zhanshi .lie {
+	margin-top: 25px;
+	width: 240px;
+	height: 570px;
+	border: 1px #CCCCCC solid;
+	margin-left: 0px;
+}
+.zhanshi .lie li {
+	line-height: 40px;
+	border-bottom: 1px #CCCCCC solid;
+	padding-left: 20px;
+	font-size: 16px;
+}
+.zhanshi .lie li:hover {
+	background-color: #F77211;
+}
+.zhanshi .lie li:hover a {
+	color: #FFF;
+}
+.zhanshi .lie li a {
+	color: #999494;
+}
+.zhanshi .tuu {
+	margin-top: -570px;
+	margin-left: 290px;
+}
+.zhanshi .tuu li {
+	float: left;
+	padding-right: 55px;
+}
+.zhanshi .tuu li p {
+	font-size: 16px;
+	line-height: 35px;
+	text-align: center;
+}
+.zhanshi .tuu li p a {
+	color: #302B2B;
+}
+/*汗蒸材料*/
+.hanzheng {
+	height: 630px;
+	margin-top: 33px;
+}
+.cailiao .juse {
+	padding-left: 15px;
+	display: inline-block;
+	padding-right: 5px;
+}
+.cailiao h3 {
+	font-size: 18px;
+	color: #F77111;
+	display: inline-block;
+}
+.cailiao .fan {
+	margin-top: 25px;
+	width: 240px;
+	height: 570px;
+	border: 1px #CCCCCC solid;
+	margin-left: 0px;
+}
+.cailiao .fan li {
+	line-height: 40px;
+	border-bottom: 1px #CCCCCC solid;
+	padding-left: 20px;
+	font-size: 16px;
+}
+.cailiao .fan li:hover {
+	background-color: #F77211;
+}
+.cailiao .fan li:hover a {
+	color: #FFF;
+}
+.cailiao .fan li a {
+	color: #999494;
+}
+.cailiao .fan h3 {
+	font-size: 18px;
+	color: #5D5757;
+	padding-left: 65px;
+	font-weight: normal;
+}
+.cailiao .fan p {
+	font-size: 25px;
+	color: #F77211;
+	padding-left: 15px;
+}
+.cailiao .shuijing {
+	margin-top: -570px;
+	margin-left: 290px;
+}
+.cailiao .shuijing li {
+	float: left;
+	padding-right: 55px;
+}
+.cailiao .shuijing li p {
+	font-size: 16px;
+	line-height: 35px;
+	text-align: center;
+}
+.cailiao .shuijing li p a {
+	color: #302B2B;
+}
+/*联系我们*/
+.lianxi {
+	height: 865px;
+	margin-top: 33px;
+}
+.women .lij {
+	padding-left: 15px;
+	padding-right: 5px;
+	display: inline-block;
+}
+.women h3 {
+	font-size: 18px;
+	color: #F77111;
+	display: inline-block;
+}
+.women .lianda {
+	border: 2px #F77111 solid;
+	padding: 5px;
+	display: inherit;
+	margin-top: 35px;
+	margin-left: 265px;
+}
+.women h4 {
+	font-size: 16px;
+	color: #F77111;
+	padding-top: 20px;
+	padding-left: 445px;
+}
+.women>ul {
+	padding-top: 40px;
+	padding-left: 300px;
+}
+.women>ul>li {
+	font-size: 14px;
+	color: #787471;
+	padding-bottom: 40px;
+}
+.women>ul>li>span>a {
+	color: #F87E62;
+}

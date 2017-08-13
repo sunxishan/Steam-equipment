@@ -1,0 +1,40 @@
+@charset "utf-8";
+/* CSS Document */
+.cg {
+	height: 1055px;
+}
+.cg h3 {
+	margin-left: 20px;
+	font-size: 18px;
+	font-family: "微软雅黑";
+	padding: 25px 0 25px 0;
+}
+.cg h3 a {
+	color: #F77111;
+}
+.cg h3 img {
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 5px;
+	margin-top: -2px;
+}
+.cg ul {
+	margin-left: 20px;
+}
+.cg ul li img {
+	padding-bottom: 10px;
+}
+.cg ul li {
+	float: left;
+	width: 337px;
+	height: 324px;
+	font-size: 14px;
+	font-family: "微软雅黑";
+	color: #666;
+	text-align: center;
+	margin-right: 70px;
+}
+.cg ul li a {
+	color: #656565;
+}
+

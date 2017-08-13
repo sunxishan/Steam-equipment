@@ -1,0 +1,111 @@
+@charset "utf-8";
+/* CSS Document */
+/*关于我们*/
+.aboutus {
+	height: 482px;
+	background-color: #F77211;
+}
+.aboutus .left {
+	width: 578px;
+	padding-right: 40px;
+	float: left;
+}
+.aboutus .left h2 {
+	font-size: 18px;
+	font-family: "微软雅黑";
+	color: white;
+	font-weight: normal;
+	line-height: 65px;
+}
+.aboutus .left h2 span {
+	padding-left: 30px;
+}
+.aboutus .left p {
+	font-size: 14px;
+	font-family: "微软雅黑";
+	color: white;
+	line-height: 30px;
+}
+.aboutus img {
+	float: left;
+	margin-top: 21px;
+}
+/*成功案例*/
+.case {
+	height: 740px;
+}
+.case h2 {
+	font-size: 18px;
+	font-family: "微软雅黑";
+	color: #F77111;
+	font-weight: normal;
+	line-height: 65px;
+}
+.case h2 span {
+	padding-left: 30px;
+}
+.case ul li {
+	float: left;
+	width: 337px;
+	margin: 0 31px;
+}
+.case ul li a {
+	width: 337px;
+	margin-top: 35px;
+	display: inline-block;
+	font-size: 14px;
+	font-family: "微软雅黑";
+	color: #656565;
+	text-align: center;
+}
+.case .bottom img {
+	float: left;
+	margin: 72px 49px 0 31px;
+}
+.case .bottom .right {
+	float: left;
+	width: 744px;
+	margin-top: 72px;
+}
+.case .bottom .right h3 {
+	font-size: 18px;
+	font-family: "微软雅黑";
+	font-weight: normal;
+	color: #F77111;
+	line-height: 30px;
+}
+.case .bottom .right p {
+	font-size: 14px;
+	font-family: "微软雅黑";
+	color: #656565;
+	line-height: 28px;
+}
+/*产品展示*/
+.display {
+	height: 590px;
+}
+.display h2 {
+	font-size: 18px;
+	font-family: "微软雅黑";
+	color: #F77111;
+	font-weight: normal;
+	line-height: 65px;
+}
+.display h2 span {
+	padding-left: 30px;
+}
+.display ul li {
+	float: left;
+	width: 266px;
+	margin: 0 17px;
+}
+.display ul li a {
+	width: 266px;
+	text-align: center;
+	display: inline-block;
+	line-height: 40px;
+	font-size: 14px;
+	font-family: "微软雅黑";
+	color: #656565;
+}
+

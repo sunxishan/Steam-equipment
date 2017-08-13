@@ -1,0 +1,178 @@
+@charset "utf-8";
+/* CSS Document */
+body, ul, ol, h1, h2, h3, h4, h5, h6, p, input, select, textarea, dl, dd {
+	margin: 0;
+	padding: 0;
+}
+ul, ol {
+	list-style: none;
+}
+input, select, textarea {
+	background-color: transparent;
+	border: none;
+	outline: none;
+}
+/*右下角的小尾巴*/
+textarea {
+	resize: none;
+}
+img {
+	border: none;
+	vertical-align: top;
+}
+a {
+	text-decoration: none;
+}
+/*清浮动*/
+.clearfix:after, .clearfix:before {
+	content: "";
+	display: table;
+}
+.clearfix:after {
+	clear: both;
+}
+.clearfix {
+*zoom:1;
+}
+/*公用样式*/
+.publicwidth {
+	width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+}
+/*头部*/
+.header{
+	height: 59px;
+	line-height: 59px;
+}
+.header h1{
+	float: right;
+	font-size: 18px;
+	font-family: "微软雅黑";
+	font-weight: normal;
+	color: #656565;
+}
+/*导航*/
+.topnav{
+	height: 49px;
+	line-height: 49px;
+	border-top: 1px solid #9F9F9F;
+	border-bottom: 1px solid #9F9F9F;
+}
+.topnav ul li{
+	float: left;
+	padding: 0 36px;
+}
+.topnav ul li:first-child{
+	padding-left: 0;
+}
+.topnav ul li:last-child{
+	padding-right: 0;
+	padding-left: 48px;
+}
+.topnav ul li a{
+	font-size: 18px;
+	font-family: "微软雅黑";
+	font-weight: bold;
+	color: black;
+}
+/*滚动*/
+.scroll{
+	height: 55px;
+	line-height: 55px;
+}
+.scroll p{
+	float: left;
+	margin-left: 4px;
+	background:url(../images/guangbo.png) left center no-repeat;
+	padding-left: 50px;
+	font-size: 14px;
+	font-family: "微软雅黑";
+	color: #656565;
+}
+.scroll form{
+	float: right;
+	margin-right: 3px;
+}
+.scroll form select{
+	width: 103px;
+	height: 31px;
+	line-height: 31px;
+	padding-left: 16px;
+	border-top: 1px solid #666666;
+	border-bottom: 1px solid #666666;
+	border-left: 1px solid #666666;
+	background-color: #F77211;
+	font-size: 14px;
+	font-family: "微软雅黑";
+	color: white;
+}
+.scroll form input{
+	width: 111px;
+	height: 29px;
+	margin-left: -5px;
+	padding-left: 5px;
+	line-height: 29px;
+	border-top: 1px solid #666666;
+	border-bottom: 1px solid #666666;
+	border-right: 1px solid #666666;
+	font-size: 14px;
+	font-family: "微软雅黑";
+	color: #656565;
+}
+/*轮播图*/
+#container {
+	width: 100%;
+	height: 450px;
+	overflow: hidden;
+}
+.sections, .section {
+	height: 100%;
+}
+#container, .sections {
+	position: relative;
+}
+.section {
+	background-color: #000;
+	background-size: cover;
+	background-position: 50% 50%;
+	text-align: center;
+	color: white;
+}
+#section0 {
+	background-image: url("../images/1.jpg");
+}
+#section1 {
+	background-image: url("../images/2.jpg");
+}
+#section2 {
+	background-image: url("../images/3.jpg");
+}
+#section3 {
+	background-image: url("../images/4.jpg");
+}
+/*底部*/
+.bottom {
+	padding-top: 10px;
+	height: 250px;
+	border-top: 1px solid #9F9F9F;
+}
+.bottom ul{
+	padding-bottom: 60px;
+}
+.bottom ul li {
+	float: left;
+	margin: 0 40px;
+}
+.bottom ul li a {
+	font-size: 14px;
+	font-family: "微软雅黑";
+	color: #656565;
+}
+.bottom .bottombar p {
+	text-align: center;
+	font-size: 14px;
+	font-family: "微软雅黑";
+	color: #656565;
+	line-height: 30px;
+}
